@@ -1,0 +1,84 @@
+body{
+  margin: 0;
+  background-color: rgb(223, 222, 222);
+}
+
+.whiteBg{
+  background-color: aliceblue;
+  margin: 0;
+  padding: 20px;
+}
+
+#navbar{
+  background-color: rgb(23, 33, 28);
+  padding: 20px;
+}
+#navbar a, .bottomNav a {
+  transition: color 200ms ease-in-out;
+}
+
+#navbar a:hover,.bottomNav a:hover{
+  color: green ;
+}
+
+#navbar a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: lightgray;
+  font-weight: 800;
+}
+
+
+
+
+
+#midPage{
+  display: flex;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+#midPage div{
+  background-color: white;
+  padding: 5px;
+}
+
+#endPage{
+  display: flex;
+  margin-top: 20px;
+  padding-left: 20px;
+  background-color: white;
+}
+
+.blueText{
+  color: blue;
+  font-size: 2.2rem;
+}
+img{
+  object-fit: cover;
+  width: 100%;
+  height: 500px;
+  margin-top: 20px;
+}
+
+.m10proc{
+  margin: 0 10%;
+}
+
+.btmNav{
+  width: 400px;
+  padding: 0 15px;
+}
+
+.bottomNav{
+  background-color: gray;
+  padding: 10px;
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bottomNav a {
+  text-decoration: none;
+  color: lightgray;
+}
