@@ -1,4 +1,5 @@
-import HeaderImg from './assets/tree.jpg'
+import HeaderImg from './assets/tree.jpg';
+import  Button from './components/button/button.jsx'
 const App = () => { 
 
   return (
@@ -50,11 +51,8 @@ const App = () => {
           </div>
         </div>
       </section>
+      <Button />
     </div>
-    
-      
-    
-     
   );
 };
 
