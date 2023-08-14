@@ -1,0 +1,18 @@
+.heroWraper{
+     padding: 50px 70px;
+     font-size: 1.8rem;
+     font-family: monospace;
+     color: white;
+}
+
+h1, h2{
+     margin: 0;
+}
+
+#red{
+     background-color: red;
+}
+
+#blue{
+     background-color: blue;
+}
