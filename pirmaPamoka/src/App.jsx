@@ -3,8 +3,8 @@ import  Button from './components/button/button.jsx'
 const App = () => { 
 
   return (
-    <div class="m10proc">
-      <h1 class="whiteBg marginT20">SITE<span class="blueText">LOGO</span></h1>
+    <div className="m10proc">
+      <h1 className="whiteBg marginT20">SITE<span className="blueText">LOGO</span></h1>
       <nav id="navbar">
         <a href="">Home</a>
         <a href="">Product</a>
@@ -41,9 +41,9 @@ const App = () => {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita porro a ex quia suscipit accusamus, esse ut soluta atque dolor eum modi obcaecati vel mollitia facere officia dolores voluptatum veritatis earum laborum! Animi, numquam atque? Labore quisquam nobis ab cumque.</p>
           </div>
         </div>
-        <div class="btmNav">
+        <div className="btmNav">
           <h1>Navigation</h1>
-          <div class="bottomNav">
+          <div className="bottomNav">
             <a href="">Home</a>
             <a href="">Product</a>
             <a href="">Company</a>
